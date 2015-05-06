@@ -1,11 +1,11 @@
 {
-  "name": "route-recognizer",
+  "name": "route-recognizer-browserify-importable",
   "version": "0.1.5",
-  "description": "A lightweight JavaScript library that matches paths against registered routes.",
+  "description": "A fork of route-recognizer which lets me import it with browserify (w/ babel).",
   "author": "Yehuda Katz",
   "repository": {
     "type": "git",
-    "url": "https://github.com/tildeio/route-recognizer.git"
+    "url": "https://github.com/ChrissiQ/route-recognizer.git"
   },
   "devDependencies": {
     "broccoli-compile-modules": "^1.1.0",
@@ -16,18 +16,10 @@
     "broccoli-merge-trees": "^0.2.1",
     "ember-cli": "0.1.7"
   },
-  "main": "dist/route-recognizer.js",
-  "bugs": {
-    "url": "https://github.com/tildeio/route-recognizer/issues"
-  },
-  "homepage": "https://github.com/tildeio/route-recognizer",
+  "main": "lib/route-recognizer.js",
+  "homepage": "https://github.com/ChrissiQ/route-recognizer",
   "directories": {
     "test": "tests"
-  },
-  "scripts": {
-    "test": "ember test",
-    "start": "ember test --server",
-    "build": "ember build"
   },
   "license": "MIT"
 }
